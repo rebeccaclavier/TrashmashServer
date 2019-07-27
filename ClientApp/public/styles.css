@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/njx8qqj.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #212121;
+    padding: 76px;
+    box-sizing: border-box;
+}
+
+p, h1 {
+    font-family: sofia-pro;
+    font-style: normal;
+    color: white;
+    margin: 4px;
+}
+
+h1 {
+    font-size: 24px;
+    opacity: 0.87;
+}
+
+p {
+    opacity: 0.54;
+}
+
+.wrapper {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 76px;
+    box-sizing: border-box;
+}
+
+.file-drop, .file-drop-target {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-sweet-progress {
+    margin-top: 8px;
+}
+
+.material-icons { font-size: 72px; }
+
+.material-icons.success { color: #00e676; }
+.material-icons.error { color: #ff5252; }
